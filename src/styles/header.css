@@ -1,0 +1,68 @@
+.header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgb(88, 27, 255);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px; 
+    color: white;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto 2fr auto;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+.header-name{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-actions{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header-login{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: large;
+    padding-right: 5%;
+}
+.button-header-name{
+    
+    font-size: 200%;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+button{
+    white-space: nowrap;  
+    background-color: rgb(88, 27, 255);
+    color: white;
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+.button-header-login{
+    
+    font-size: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+
+.button-header-action{
+    padding-left: 5%;
+    font-size: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}

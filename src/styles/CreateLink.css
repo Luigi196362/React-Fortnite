@@ -1,0 +1,16 @@
+.image-container{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    
+    height: fit-content;
+}
+.img-previsualizacion{
+    width: 20%;
+    text-align: center;
+}
